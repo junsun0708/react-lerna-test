@@ -1,0 +1,35 @@
+{
+  "name": "prj1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "JYH <salvayh@thingspire.com>",
+  "homepage": "https://github.com/junsun0708/react-lerna-test#readme",
+  "license": "ISC",
+  "main": "lib/prj1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junsun0708/react-lerna-test.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/prj1.test.js",
+    "start": "node index.js",
+    "build": "echo 'Building prj1...'"
+  },
+  "bugs": {
+    "url": "https://github.com/junsun0708/react-lerna-test/issues"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "components": "^0.0.0",
+    "css": "^0.0.0",
+    "modules": "^0.0.0",
+    "public": "^0.0.0"
+  }
+}

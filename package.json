@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start:prj1": "lerna run start --scope=prj1",
+    "start:prj2": "lerna run start --scope=prj2",
+    "build": "lerna run build --parallel"
+  }
+}
